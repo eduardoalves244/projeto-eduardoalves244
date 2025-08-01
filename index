@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Rising of the Shield Hero - A Jornada do Herói do Escudo</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(to right, #0a1930, #144552);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            border-bottom: 5px solid #d4af37;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        header p {
+            margin: 0.5rem 0 0;
+            font-size: 1.2rem;
+            font-style: italic;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #d4af37;
+            border-bottom: 2px solid #d4af37;
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+        }
+        .character-card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 1.5rem;
+        }
+        .character-card {
+            background-color: #fafafa;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+        .character-card:hover {
+            transform: translateY(-5px);
+        }
+        .character-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #d4af37;
+            margin-bottom: 0.5rem;
+        }
+        .character-card h3 {
+            margin: 0.5rem 0 0.25rem;
+            color: #0a1930;
+        }
+        .character-card p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+        .quote {
+            font-style: italic;
+            border-left: 4px solid #d4af37;
+            padding-left: 1rem;
+            margin: 1.5rem 0;
+            color: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+            margin-top: 2rem;
+        }
+        .button {
+            display: inline-block;
+            background-color: #d4af37;
+            color: #0a1930;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 1rem;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #b8912b;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>The Rising of the Shield Hero</h1>
+        <p>A Jornada Épica de um Herói Injustiçado</p>
+    </header>
+
+    <div class="container">
+        <section class="section">
+            <h2>Sobre o Anime</h2>
+            <p><strong>The Rising of the Shield Hero</strong> (em japonês, <em>Tate no Yūsha no Nariagari</em>) é um anime de fantasia isekai baseado em uma série de light novels. A história segue <strong>Naofumi Iwatani</strong>, um otaku universitário que é invocado para um mundo de fantasia para se tornar um dos Quatro Heróis Cardeais, o Herói do Escudo.</p>
+            <p>Apesar de ser convocado para salvar o mundo, Naofumi é rapidamente difamado e traído, sendo acusado de crimes que não cometeu. Com seu espírito quebrado e aversão a todos, ele embarca em uma jornada de vingança e sobrevivência, lutando não apenas contra as "Ondas da Calamidade" que ameaçam o reino, mas também contra o preconceito e a desconfiança do mundo que ele foi chamado para proteger.</p>
+            <div class="quote">
+                "Não posso me dar ao luxo de ser um herói. Só posso continuar a existir como um herói do escudo, um escudo para proteger a todos." - Naofumi Iwatani
+            </div>
+            <a href="https://www.crunchyroll.com/series/G6P8D6PMR/the-rising-of-the-shield-hero" class="button" target="_blank">Assista agora na Crunchyroll</a>
+        </section>
+
+        <section class="section">
+            <h2>Personagens Principais</h2>
+            <div class="character-card-container">
+                <div class="character-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Naofumi_Iwatani_anime_design.png/220px-Naofumi_Iwatani_anime_design.png" alt="Naofumi Iwatani">
+                    <h3>Naofumi Iwatani</h3>
+                    <p>O Herói do Escudo. Inicialmente, um jovem otimista que se torna cínico e desconfiado após ser traído. Ele usa seu escudo para proteger seus aliados e evoluir suas habilidades.</p>
+                </div>
+                <div class="character-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/18/Raphtalia_anime_design.png/220px-Raphtalia_anime_design.png" alt="Raphtalia">
+                    <h3>Raphtalia</h3>
+                    <p>Uma demi-humana da raposa-guaxinim resgatada por Naofumi. Ela se torna sua primeira companheira fiel e a "espada" que ele não pode usar. Leal e determinada, ela o ajuda a curar suas feridas emocionais.</p>
+                </div>
+                <div class="character-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Filo_anime_design.png/220px-Filo_anime_design.png" alt="Filo">
+                    <h3>Filo</h3>
+                    <p>Uma filolial (uma espécie de ave gigante) que Naofumi choca de um ovo. Ela pode se transformar em uma garota com asas e se torna a terceira integrante do grupo, servindo como meio de transporte e uma poderosa lutadora.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Por que assistir?</h2>
+            <p>The Rising of the Shield Hero se destaca no gênero isekai por várias razões:</p>
+            <ul>
+                <li><strong>Protagonista Diferente:</strong> Naofumi não é o herói genérico. Sua jornada é de superação e vingança, não de glória imediata.</li>
+                <li><strong>Desenvolvimento de Personagens:</strong> O anime foca no crescimento de Naofumi e seus companheiros, mostrando a evolução de seus laços e a cura de traumas.</li>
+                <li><strong>Crítica ao Gênero:</strong> A série inverte tropos comuns do isekai, apresentando um herói que é odiado e traído, forçando-o a questionar a natureza do "heroísmo".</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Fã-site não oficial. Todos os direitos reservados a seus respectivos criadores.</p>
+    </footer>
+
+</body>
+</html>
